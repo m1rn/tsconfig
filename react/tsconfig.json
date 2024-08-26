@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "../node/tsconfig",
+    "../browser/tsconfig"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "react-jsx"
+  }
+}

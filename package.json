@@ -1,0 +1,40 @@
+{
+  "name": "@m1rn/tsconfig",
+  "description": "Typescript shareable configurations",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "m1rn",
+  "homepage": "https://github.com/m1rn/tsconfig",
+  "bugs": "https://github.com/m1rn/tsconfig/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m1rn/tsconfig"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "base",
+    "strict",
+    "browser",
+    "node",
+    "react",
+    "vue"
+  ],
+  "exports": {
+    "./base": "./base/tsconfig.json",
+    "./strict": "./strict/tsconfig.json",
+    "./browser": "./browser/tsconfig.json",
+    "./node": "./node/tsconfig.json",
+    "./react": "./react/tsconfig.json",
+    "./vue": "./vue/tsconfig.json",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}

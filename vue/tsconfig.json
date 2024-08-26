@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "../node/tsconfig",
+    "../browser/tsconfig"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue"
+  }
+}
